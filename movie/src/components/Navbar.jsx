@@ -18,7 +18,7 @@ const Navbar = () => {
             <p className="hover:scale-110 transition duration-300 ease-in">Home</p>
           </NavLink>
 
-          <NavLink to="/cart">
+          <NavLink to="/movie">
             <div className="relative">
               <FaShoppingCart className="text-2xl " />
               {movie.length > 0 && (
